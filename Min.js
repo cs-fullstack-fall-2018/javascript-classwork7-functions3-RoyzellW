@@ -8,6 +8,12 @@ function main() {
     var num4 = parseInt(2);
     var num5 = parseInt(2);
     alert(product(num4, num5));
+
+    var num6 = parseInt(prompt("Enter a number: "));
+    var num7 = parseInt(prompt("Enter a number: "));
+    alert(product2(num6, num7));
+
+
 }
 
 
@@ -21,6 +27,12 @@ function sumNum(num1, num2, num3) {
 
 function product(num4, num5) {
     var multiples = num4 * num5;
+    return(multiples);
+
+}
+
+function product2(num6, num7) {
+    var multiples = num6 * num7;
     return(multiples);
 
 }
